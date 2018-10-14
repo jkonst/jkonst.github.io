@@ -1,1 +1,15 @@
+# Site Settings
+title: John Konstas
+email: yannis.konstas@gmail.com
+baseurl: ""
+twitter_username: i_konstas
+github_username: jkonst
+
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+
 theme: jekyll-theme-cayman
