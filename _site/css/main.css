@@ -13,7 +13,7 @@ a, a:visited { color: #425469; text-decoration: underline; font-weight: bold; }
 
 a:hover { color: whitesmoke; text-decoration: underline; }
 
-#photo-placeholder { width: 20vw; height: 20vw; float: left; background-color: white; border-radius: 50%; border: 5px solid white; background-size: cover; background-position: center; background-image: url("/images/profile_pic.jpg"); }
+#photo-placeholder { width: 20vw; height: 20vw; float: left; background-color: white; border-radius: 50%; border: 5px solid white; background-size: cover; background-position: center; background-image: url("/john.konstas/images/profile_pic.jpg"); }
 
 #placeholder-separator { float: left; margin: 10%; }
 
