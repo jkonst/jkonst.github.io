@@ -50,9 +50,14 @@
 			<div class="article-wrapper">
 				<h2>Contact</h2>
    
-    <p>Contact content goes here.</p>
-
-<p>My e-mail is <a href="mailto:yannis.konstas@gmail.com">yannis.konstas@gmail.com</a>.</p>
+    <form class="contact-jk" action="https://formspree.io/yannis.konstas@gmail.com" method="POST">
+    <input type="text" name="email" placeholder="Email Address" />
+    <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+    <input type="hidden" name="_next" value="&lt;REDIRECTION LINK&gt; " />
+    <input type="hidden" name="_subject" value="New Contact Form Submission" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Send" />
+</form>
 
 
 
