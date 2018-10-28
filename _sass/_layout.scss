@@ -39,25 +39,23 @@ a:hover {
 }
 
 #photo-placeholder {
-	width:20vw;
-        height:20vw;
+	width:20vmax;
+        height:20vmax;
 	float: left;
-        background-color: white;
-        border-radius: 50%;
+       	background-color: white;
+       	border-radius: 50%;
 	border: 5px solid white;
-        background-size: cover;
-        background-position: center;
-	background-image: url("/john.konstas/images/profile_pic.jpg");
+       	background-size: cover;
+       	background-position: center;
+	background-image: url("/john.konstas/images/profile_pic.jpg");	
+	margin: 0 auto;
 }
 
-#placeholder-separator {
-	float:left;
-	margin: 10%;
-}
 
 #baseurl-placeholder {
         float:left;   
-	max-width: 30%;
+	max-width: 50%;
+	margin: 0 auto;
 }
 
 .article-wrapper {
@@ -105,6 +103,9 @@ aside {
 			margin: 0;
 			padding: 0;
 			list-style: none;
+                        li.active a {
+				background: $header;
+			}
 			li {
 				float: left;
 				position: relative;
@@ -115,7 +116,7 @@ aside {
 					font-family: 'Muli', sans-serif;
 					line-height: 20px;
 					margin-bottom: -1px;
-					box-shadow: 0;
+					box-shadow: 0;                                      
 					&:hover,
 					&:active {
 						background: $header;

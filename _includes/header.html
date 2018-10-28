@@ -2,10 +2,12 @@
 	<div class="container">
 		<nav>
 			<ul>
+				{% assign url = page.url|remove:'index.html' %}
 				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				<li {% if url == page.url %} class="active" {% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+                                {% assign blogUrl = '/blog/' %}
+				<li {% if url == blogUrl%} class="active" {% endif %}><a href="{{ blogUrl | prepend: site.baseurl }}">Blog</a></li>
 			</ul>
 			</li>
 			</ul>
@@ -16,9 +18,8 @@
 <header>
         <div id="photo-placeholder">
         </div>
-        <div id="placeholder-separator"></div>
-        <div id="baseurl-placeholder">	
+         <div id="baseurl-placeholder">	
           <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-	  <h2>Senior Software Engineer, Consultant</h2>
+	  <h2>Software Engineer | Freelancer</h2>
         </div>
 </header>
