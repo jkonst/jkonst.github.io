@@ -7,7 +7,7 @@
 				<li {% if url == page.url %} class="active" {% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
                                 {% assign blogUrl = '/blog/' %}
-				<li {% if url == blogUrl%} class="active" {% endif %}><a href="{{ blogUrl | prepend: site.baseurl }}">Blog</a></li>
+				<li {% if url contains blogUrl%} class="active" {% endif %}><a href="{{ blogUrl | prepend: site.baseurl }}">Blog</a></li>
 			</ul>
 			</li>
 			</ul>

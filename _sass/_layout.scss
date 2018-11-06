@@ -260,4 +260,30 @@ form.contact-jk input[type="submit"] {
        }
       }
     }
-} 
+}
+.cv-table{
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border: 1px solid #ddd;
+    }
+   th, td {
+     text-align: left;
+     padding: 8px;
+   }
+   tr:nth-child(even){background-color: $table-row }
+   a {
+   &:hover {
+    color:cadetblue;
+   }
+   }
+}
+.blog-wrapper{
+  a {
+  &:hover {
+  color:cadetblue;
+  }
+  }	
+}
+ 

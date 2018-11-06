@@ -61,6 +61,13 @@ form.contact-jk input[type="submit"] { outline: none; color: white; background-c
 .cv-contents ul li { display: list-item; text-align: -webkit-match-parent; }
 .cv-contents ul a:hover { color: cadetblue; }
 
+.cv-table table { border-collapse: collapse; border-spacing: 0; width: 100%; border: 1px solid #ddd; }
+.cv-table th, .cv-table td { text-align: left; padding: 8px; }
+.cv-table tr:nth-child(even) { background-color: #ffdf68; }
+.cv-table a:hover { color: cadetblue; }
+
+.blog-wrapper a:hover { color: cadetblue; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 .highlight .c { color: #998; font-style: italic; }

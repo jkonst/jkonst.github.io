@@ -5,8 +5,8 @@
     <description>My public page</description>
     <link>http://localhost:4000/john.konstas/</link>
     <atom:link href="http://localhost:4000/john.konstas/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Nov 2018 23:00:55 +0200</pubDate>
-    <lastBuildDate>Thu, 01 Nov 2018 23:00:55 +0200</lastBuildDate>
+    <pubDate>Tue, 06 Nov 2018 23:08:01 +0200</pubDate>
+    <lastBuildDate>Tue, 06 Nov 2018 23:08:01 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -26,14 +26,14 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 30 Nov 2015 02:10:45 +0200</pubDate>
-        <link>http://localhost:4000/john.konstas/jekyll/update/2015/11/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/john.konstas/jekyll/update/2015/11/30/welcome-to-jekyll.html</guid>
+        <pubDate>Thu, 01 Nov 2018 02:10:45 +0200</pubDate>
+        <link>http://localhost:4000/john.konstas/blog/posts/2018/11/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/john.konstas/blog/posts/2018/11/01/welcome-to-jekyll.html</guid>
         
         
-        <category>jekyll</category>
+        <category>blog</category>
         
-        <category>update</category>
+        <category>posts</category>
         
       </item>
     
