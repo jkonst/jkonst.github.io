@@ -68,6 +68,10 @@ form.contact-jk input[type="submit"] { outline: none; color: white; background-c
 
 .blog-wrapper a:hover { color: cadetblue; }
 
+div.cv-pro table { border-collapse: collapse; width: 100%; }
+div.cv-pro table td { border: 1px solid #bbb; padding: 5px; }
+div.cv-pro table tr:nth-child(odd) { background-color: #fff; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 .highlight .c { color: #998; font-style: italic; }

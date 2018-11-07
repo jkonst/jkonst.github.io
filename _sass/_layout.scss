@@ -284,6 +284,19 @@ form.contact-jk input[type="submit"] {
   &:hover {
   color:cadetblue;
   }
-  }	
+  }
+}	
+div.cv-pro{
+ table {
+  border-collapse: collapse;
+  width:100%;
+  td {
+   border: 1px solid #bbb;
+   padding:5px;
+  }
+  tr:nth-child(odd){
+   background-color: #fff;
+  }
+ }
 }
  
