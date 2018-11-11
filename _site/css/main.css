@@ -1,6 +1,8 @@
 *, *::before, *::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { margin: 0; color: #262626; font-family: "Open Sans", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+html { height: 100%; }
+
+body { margin: 0; color: #262626; font-family: "Open Sans", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; min-height: 100%; }
 
 h1, h2, h3 { font-weight: 600; color: #425469; font-family: "Muli", sans-serif; line-height: 1.0; }
 
@@ -17,7 +19,7 @@ a:hover { color: whitesmoke; text-decoration: underline; }
 
 #baseurl-placeholder { float: left; max-width: 50%; margin: 0 auto; }
 
-.article-wrapper { padding: 5%; }
+.article-wrapper { padding: 5%; min-height: 60vmax; }
 
 header { background: lightseagreen; padding: 15px; text-align: center; margin: 50px 0 0; max-height: 400px; display: flex; justify-content: center; align-items: center; }
 
