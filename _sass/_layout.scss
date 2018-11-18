@@ -293,8 +293,9 @@ form.contact-jk input[type="submit"] {
 }	
 .cv-pro{
  table {
-  border-collapse: collapse;
-  width:100%;
+      border-collapse: collapse;
+      width: 100%;
+      table-layout:fixed;
   a {
    &:hover {
     color:cadetblue;
@@ -309,7 +310,12 @@ form.contact-jk input[type="submit"] {
   }
  }
 }
-
+td.first {
+width:5%;
+}
+td.second {
+width:95%;
+}
 .page-notfound-wrapper {
 	margin: 0 auto;
 	min-height: 500px;

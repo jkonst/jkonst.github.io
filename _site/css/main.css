@@ -70,10 +70,14 @@ form.contact-jk input[type="submit"] { outline: none; color: white; background-c
 
 .blog-wrapper a:hover { color: cadetblue; }
 
-.cv-pro table { border-collapse: collapse; width: 100%; }
+.cv-pro table { border-collapse: collapse; width: 100%; table-layout: fixed; }
 .cv-pro table a:hover { color: cadetblue; }
 .cv-pro table td { border: 1px solid #bbb; padding: 5px; }
 .cv-pro table tr:nth-child(odd) { background-color: #fff; }
+
+td.first { width: 5%; }
+
+td.second { width: 95%; }
 
 .page-notfound-wrapper { margin: 0 auto; min-height: 500px; text-align: center; }
 .page-notfound-wrapper h1 { margin: 30px 0; font-size: 4em; line-height: 1; letter-spacing: -1px; color: #000; }
