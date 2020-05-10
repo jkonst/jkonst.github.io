@@ -5,7 +5,7 @@ permalink: /info/
 ---
 
 * Located in Athens, Greece
-* Currently working as a Software Engineer in a big European project
+* Currently working as a Full-Stack Engineer on a big European project
 * Having big experience in Java desktop and web-based solutions
 * Implementing front-end solutions in Angular >= 5
 * Could work as a freelancer and help with demanding projects

@@ -43,8 +43,10 @@ a:hover {
 }
 
 #photo-placeholder {
-	width:20vmax;
-        height:20vmax;
+	width:10vmax;
+  height:10vmax;
+  max-height: 10vmax;
+  max-width: 10vmax;
 	float: left;
        	background-color: white;
        	border-radius: 50%;
@@ -64,7 +66,7 @@ a:hover {
 
 .article-wrapper {
 	padding:5%;
-	min-height:60vmax;
+	max-height:30vmax;
 }
 
 header {
