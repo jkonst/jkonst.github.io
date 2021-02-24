@@ -10,6 +10,8 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -49,39 +51,32 @@ a:hover {
 }
 
 #photo-placeholder {
-  width: 10vmax;
-  height: 10vmax;
-  max-height: 10vmax;
-  max-width: 10vmax;
-  float: left;
   background-color: white;
   border-radius: 50%;
   border: 5px solid white;
   background-size: cover;
   background-position: right;
   background-image: url("/john.konstas/images/profile_pic_blur.JPG");
-  margin: 0 auto;
 }
 
 
 #baseurl-placeholder {
-  float: left;
-  max-width: 50%;
-  margin: 0 auto;
+  margin: 2em;
 }
 
 .article-wrapper {
   padding: 5%;
-  min-height: 32vmax;
+  background-color: white;
+  justify-content: center;
+  display: grid;
 }
 
 header {
   background: $header;
   padding: 15px;
   text-align: center;
-  margin: 50px 0 0;
-  max-height: 400px;
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
 }
@@ -89,6 +84,7 @@ header {
 main {
   max-width: $content-width;
   margin: 0 auto;
+  flex: 1 0 auto;
 }
 
 time {
@@ -105,7 +101,7 @@ time {
 aside {
   position: fixed;
   top: 0;
-  left: 0;
+  display: flex;
   background: #fff;
   width: 100%;
   z-index: 2;
@@ -113,23 +109,19 @@ aside {
   box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
 
   nav {
-    float: left;
-    max-width: 800px;
-    margin: 0 auto;
 
     ul {
       margin: 0;
       padding: 0;
       list-style: none;
+      display: flex;
 
       li.active a {
         background: $header;
       }
 
       li {
-        float: left;
-        position: relative;
-
+        width: 25%;
         a {
           text-decoration: none;
           display: block;
@@ -137,7 +129,6 @@ aside {
           font-family: 'Muli', sans-serif;
           line-height: 20px;
           margin-bottom: -1px;
-          box-shadow: 0;
 
           &:hover,
           &:active {
@@ -162,6 +153,7 @@ footer {
   padding: 5%;
   border-top: 2px solid #e8e8e8;
   background-color: aliceblue;
+  flex-shrink: 0;
 
   .wrapper {
 
@@ -378,4 +370,42 @@ td.second {
     }
   }
 }
- 
+
+/* Mobile vs Desktop */
+@media (min-width:768px) and (min-height:1024px) {
+  /*Desktop css*/
+  aside nav ul li a{
+    font-size: 1.2em;
+    padding: 1.2em;
+  }
+
+  header {
+    padding-top: 85px;
+  }
+
+  #photo-placeholder {
+    margin: 2em;
+    width: 10vmax;
+    height: 10vmax;
+  }
+}
+@media (max-width:768px) and (max-height:1024px) {
+  /*Mobile css*/
+  aside nav ul li a{
+    font-size: 0.8em;
+  }
+
+  header {
+    padding-top: 60px;
+  }
+
+  #photo-placeholder {
+    padding: 2em;
+    width: 6em;
+    height: 6em;
+  }
+
+  #baseurl-placeholder {
+    font-size: 0.5em;
+  }
+}
