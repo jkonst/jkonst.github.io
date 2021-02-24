@@ -1,25 +1,27 @@
 <aside>
-	<div class="container">
-		<nav>
-			<ul>
-				{% assign url = page.url|remove:'index.html' %}
-				{% for page in site.pages %} {% if page.title %}
-				<li {% if url == page.url %} class="active" {% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-                                {% assign blogUrl = '/blog/' %}
-				<li {% if url contains blogUrl%} class="active" {% endif %}><a href="{{ blogUrl | prepend: site.baseurl }}">Blog</a></li>
-			</ul>
-			</li>
-			</ul>
-		</nav>
-	</div>
+    <div class="container">
+        <nav>
+            <ul>
+                {% assign url = page.url|remove:'index.html' %}
+                {% for page in site.pages %} {% if page.title %}
+                <li {% if url== page.url %} class="active" {% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{
+                    page.title }}</a></li>
+                {% endif %} {% endfor %}
+                {% assign blogUrl = '/blog/' %}
+                <li {% if url contains blogUrl%} class="active" {% endif %}><a
+                        href="{{ blogUrl | prepend: site.baseurl }}">Blog</a></li>
+            </ul>
+            </li>
+            </ul>
+        </nav>
+    </div>
 </aside>
 
 <header>
-        <div id="photo-placeholder">
-        </div>
-         <div id="baseurl-placeholder">	
-          <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-	  <h2>Senior Software Engineer | Web Developer</h2>
-        </div>
+    <div id="photo-placeholder">
+    </div>
+    <div id="baseurl-placeholder">
+        <h1>{{ site.title }} M.Sc.</h1>
+        <h2>Senior Software Engineer | Web Developer</h2>
+    </div>
 </header>

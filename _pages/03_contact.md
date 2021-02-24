@@ -3,7 +3,6 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-
 <form class="contact-jk" action="https://formspree.io/{{site.email}}" method="POST">
     <input type="text" name="email" placeholder="Email Address">
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
