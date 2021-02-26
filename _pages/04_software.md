@@ -12,5 +12,12 @@ permalink: /software/
         <li>[<a href="{{ "/software-downloads/jkPasswordGenerator_linux.zip" | prepend: site.baseurl }}">Download for Linux</a>]</li>
     </ul>
 </li>
+<li>Github User Search (Web App) [<a href="https://github.com/jkonst/github-user-search">GitHub</a>]
+    <ul class="download-links">
+        <li>
+            <a href="https://github-user-search-d6557.web.app/">Firebase Link</a>
+        </li>
+    </ul>
+</li>
 </ul>
 </div>
