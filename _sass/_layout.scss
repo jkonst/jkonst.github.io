@@ -55,6 +55,9 @@ a:hover {
   border-radius: 50%;
   border: 5px solid white;
   background-size: cover;
+  margin: 2em;
+  width: 10vmax;
+  height: 10vmax;
   background-position: right;
   background-image: url("/john.konstas/images/profile_pic_blur.JPG");
 }
@@ -380,12 +383,6 @@ td.second {
 
   header {
     padding-top: 85px;
-  }
-
-  #photo-placeholder {
-    margin: 2em;
-    width: 10vmax;
-    height: 10vmax;
   }
 
   #info-wrapper ul li {
