@@ -1,2 +1,2 @@
-# john.konstas
+# jkonst.github.io
 My public page
