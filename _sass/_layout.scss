@@ -73,6 +73,7 @@ a:hover {
   display: grid;
   margin: 0 auto;
   width: 50em;
+
   .to-top {
     position: fixed;
     bottom: 30px;
@@ -263,6 +264,7 @@ form.contact-jk input[type="submit"] {
     }
   }
 }
+
 .cv-section {
   background-color: #fbfbfb;
   padding: 15px;
@@ -409,8 +411,8 @@ td.second {
 
   #photo-placeholder {
     padding: 2em;
-    width: 6em;
-    height: 6em;
+    //width: 6em;
+    //height: 6em;
   }
 
   #baseurl-placeholder {
