@@ -4,3 +4,5 @@ _site/
 *.iws
 *.iml
 *.ipr
+### sass-cache
+.sass-cache/
