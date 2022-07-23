@@ -6,9 +6,8 @@ permalink: /info/
 <div id="info-wrapper">
 <ul>
 <li>Located in Athens, Greece</li>
-<li>Currently working as a Senior Full-Stack Engineer on a big European project</li>
-<li>Having big experience in Java desktop and web-based solutions</li>
-<li>Implementing front-end solutions in Angular >= 5</li>
-<li>Could work as a freelancer and help with demanding projects</li>
+<li>Currently working as a Senior Software Engineer in <a href="https://www.slido.com/">Slido</a> (acquired by Cisco)</li>
+<li>Full-stack oriented / Front End passionate</li>
+<li>Tech stack summary: Typescript (Angular/React) and Java | Node.js</li>
 </ul>
 </div>
