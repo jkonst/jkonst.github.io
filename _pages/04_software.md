@@ -10,6 +10,12 @@ permalink: /software/
     <ul class="download-links">
         <li>[<a href="{{ "/software-downloads/jkPasswordGenerator_win.zip" | prepend: site.baseurl }}">Download for Windows</a>]</li>
         <li>[<a href="{{ "/software-downloads/jkPasswordGenerator_linux.zip" | prepend: site.baseurl }}">Download for Linux</a>]</li>
+        <li>
+            <div style="display: flex; align-items: center">
+                <a href="https://jk-pass-generator.web.app/">React version</a>
+                <img src="{{ site.baseurl }}/images/new.gif" width="100" height="80">
+            </div>
+        </li> 
     </ul>
 </li>
 <li>Github User Search (Web App) [<a href="https://github.com/jkonst/github-user-search">GitHub</a>]
