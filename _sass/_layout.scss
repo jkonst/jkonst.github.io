@@ -395,10 +395,10 @@ td.second {
   }
 }
 
-@media (max-width: 768px) and (max-height: 1024px) {
+@media (max-width: 768px) {
   /*Mobile css*/
   body {
-    width: fit-content;
+    width: 100%;
   }
 
   aside nav ul li a {
@@ -432,5 +432,264 @@ td.second {
 @media (device-width: 768px) and (device-height: 1024px) {
   .article-wrapper {
     width: 100%;
+  }
+}
+
+/* =====================
+   Homepage
+   ===================== */
+
+.home-intro {
+  .positioning-statement {
+    font-size: 1.05em;
+    line-height: 1.75;
+    border-left: 3px solid $header;
+    padding-left: 1em;
+    margin-bottom: 1.5em;
+    color: $heading-font-color;
+  }
+
+  p {
+    line-height: 1.7;
+    margin-bottom: 1em;
+  }
+}
+
+.home-links {
+  display: flex;
+  gap: 1.5em;
+  margin-top: 2em;
+  flex-wrap: wrap;
+
+  a {
+    font-weight: 600;
+    padding: 0.5em 1.2em;
+    border: 1px solid $link-color;
+    border-radius: 3px;
+    text-decoration: none;
+    color: $link-color;
+
+    &:hover {
+      background: $link-color;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+/* =====================
+   About page
+   ===================== */
+
+.about-content {
+  h3 {
+    font-size: 1em;
+    margin-top: 1.8em;
+    margin-bottom: 0.6em;
+    color: $heading-font-color;
+    border-left: 3px solid $header;
+    padding-left: 0.5em;
+  }
+
+  p, ul {
+    font-size: 0.95em;
+    line-height: 1.75;
+  }
+
+  ul {
+    padding-left: 1.3em;
+  }
+
+  li {
+    margin-bottom: 0.3em;
+  }
+}
+
+/* =====================
+   Experience / CV page
+   ===================== */
+
+.cv-section-title {
+  font-size: 0.72em;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #888;
+  border-bottom: 2px solid $header;
+  padding-bottom: 0.4em;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+  font-family: $heading-font;
+}
+
+.exp-summary {
+  line-height: 1.75;
+  color: #444;
+  margin-bottom: 2em;
+  font-size: 0.95em;
+}
+
+.exp-entry {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.exp-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+
+.exp-company {
+  font-weight: 700;
+  color: $heading-font-color;
+  font-size: 1em;
+}
+
+.exp-dates {
+  color: #999;
+  font-size: 0.82em;
+  white-space: nowrap;
+}
+
+.exp-role {
+  color: $header;
+  font-weight: 600;
+  font-size: 0.92em;
+  margin: 0.2em 0;
+}
+
+.exp-context {
+  color: #999;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 0.75em;
+}
+
+.exp-body {
+  font-size: 0.9em;
+  line-height: 1.65;
+
+  p {
+    margin-bottom: 0.5em;
+  }
+
+  ul {
+    margin: 0.4em 0 0.5em 0;
+    padding-left: 1.2em;
+
+    li {
+      margin-bottom: 0.3em;
+    }
+  }
+}
+
+.exp-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  margin-top: 0.85em;
+}
+
+.tech-tag {
+  background: #f0f4f7;
+  border: 1px solid #d8e2ea;
+  border-radius: 3px;
+  padding: 0.15em 0.5em;
+  font-size: 0.75em;
+  color: #5a6a78;
+  white-space: nowrap;
+}
+
+/* Education */
+
+.edu-entry {
+  margin-bottom: 1.4em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.edu-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+
+.edu-degree {
+  font-weight: 600;
+  font-size: 0.92em;
+  color: $heading-font-color;
+}
+
+.edu-year {
+  color: #999;
+  font-size: 0.82em;
+  white-space: nowrap;
+}
+
+.edu-school {
+  color: #666;
+  font-size: 0.85em;
+  margin-top: 0.15em;
+}
+
+/* Skills */
+
+.skills-block {
+  font-size: 0.9em;
+  line-height: 1.7;
+}
+
+.skills-row {
+  margin-bottom: 0.6em;
+  display: flex;
+  gap: 0.6em;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  .skills-label {
+    font-weight: 700;
+    color: $heading-font-color;
+    min-width: 8em;
+    flex-shrink: 0;
+    font-size: 0.85em;
+  }
+
+  .skills-items {
+    color: #555;
+    flex: 1;
+  }
+}
+
+/* Languages */
+
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.9em;
+  font-size: 0.9em;
+}
+
+.lang-entry {
+  .lang-name {
+    font-weight: 600;
+    color: $heading-font-color;
+    display: block;
+  }
+
+  .lang-level {
+    color: #888;
+    font-size: 0.85em;
   }
 }
