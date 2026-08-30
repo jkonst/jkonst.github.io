@@ -6,3 +6,5 @@ _site/
 *.ipr
 ### sass-cache
 .sass-cache/
+.bundle/
+vendor/
