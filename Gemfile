@@ -1,4 +1,10 @@
 source 'https://rubygems.org'
 gem 'github-pages'
 gem 'webrick'
+# Gems removed from Ruby 4.0 stdlib, required by Jekyll and its dependencies
 gem 'csv'
+gem 'bigdecimal'
+gem 'base64'
+gem 'ostruct'
+gem 'logger'
+gem 'mutex_m'
