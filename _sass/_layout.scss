@@ -380,8 +380,18 @@ td.second {
   }
 
   header {
-    padding-top: 85px;
-    padding-bottom: 40px;
+    padding-top: 72px;
+    padding-bottom: 16px;
+  }
+
+  #photo-placeholder {
+    width: 72px;
+    height: 72px;
+    margin: 0.3em 1.2em;
+  }
+
+  #baseurl-placeholder {
+    margin: 0.3em 0.8em;
   }
 
   #info-wrapper ul li {
