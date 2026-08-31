@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Software
-permalink: /software/
+title: Projects
+permalink: /projects/
+published: true
 ---
 
 <div id="info-wrapper">

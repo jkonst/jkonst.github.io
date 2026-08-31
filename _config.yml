@@ -1,8 +1,8 @@
 # Site Settings
-title: Ioannis Konstas
+title: Yannis Konstas
+description: "Staff Software Engineer and engineering leader with 14+ years in cross-functional delivery, team leadership, and architecture ownership. Currently at Cisco Slido. Executive MBA candidate at POLIMI GSOM."
 email: yannis.konstas@gmail.com
 baseurl: ""
-twitter_username: i_konstas
 github_username: jkonst
 
 # Build Settings
