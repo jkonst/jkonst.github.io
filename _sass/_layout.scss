@@ -385,8 +385,8 @@ td.second {
   }
 
   #photo-placeholder {
-    width: 96px;
-    height: 96px;
+    width: 110px;
+    height: 110px;
     margin: 0.3em 1.2em;
   }
 
@@ -414,18 +414,21 @@ td.second {
   }
 
   header {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    flex-direction: column;
+    padding-top: 52px;
+    padding-bottom: 12px;
   }
 
   #photo-placeholder {
-    padding: 2em;
-    //width: 6em;
-    //height: 6em;
+    width: 56px;
+    height: 56px;
+    margin: 0.5em auto 0.3em;
   }
 
   #baseurl-placeholder {
-    font-size: 0.75em;
+    font-size: 0.7em;
+    margin: 0 0.5em 0.3em;
+    text-align: center;
   }
 
   #info-wrapper ul li {
