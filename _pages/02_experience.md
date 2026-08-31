@@ -199,7 +199,7 @@ permalink: /experience/
   </div>
   <div class="lang-entry">
     <span class="lang-name">Italian</span>
-    <span class="lang-level">A1, studying</span>
+    <span class="lang-level">A1–A2</span>
   </div>
 </div>
 

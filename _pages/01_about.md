@@ -11,5 +11,5 @@ permalink: /about/
 
   <p>Executive MBA candidate at POLIMI Graduate School of Management. Based in Athens.</p>
 
-  <p>Greek (native) &middot; English C1 &middot; French B2 &middot; Italian A1, studying.</p>
+  <p>Greek (native) &middot; English C1 &middot; French B2 &middot; Italian A1–A2.</p>
 </div>
