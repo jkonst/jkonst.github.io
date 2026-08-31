@@ -4,7 +4,7 @@ title: Experience
 permalink: /experience/
 ---
 
-<p class="exp-summary">Engineering leader with 12+ years delivering enterprise software across collaboration SaaS, financial markets, and EU public-sector programmes. Leads cross-functional initiatives end to end, aligning Engineering, Product and Design from discovery through rollout, mentoring engineers, and owning architecture and delivery risk. Executive MBA candidate at POLIMI Graduate School of Management.</p>
+<p class="exp-summary">Engineering leader with 14+ years delivering enterprise software across collaboration SaaS, financial markets, and EU public-sector programmes. Leads cross-functional initiatives end to end, aligning Engineering, Product and Design from discovery through rollout, mentoring engineers, and owning architecture and delivery risk. Executive MBA candidate at POLIMI Graduate School of Management.</p>
 
 <h2 class="cv-section-title">Professional Experience</h2>
 
