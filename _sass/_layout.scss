@@ -166,7 +166,7 @@ aside {
 }
 
 footer {
-  padding: 1.1em 5%;
+  padding: 1.6em 5%;
   border-top: 1px solid #e8e8e8;
   background-color: aliceblue;
   flex-shrink: 0;
@@ -177,7 +177,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     gap: 0.5em 0.9em;
-    font-size: 0.8em;
+    font-size: 0.88em;
     color: #666;
   }
 
@@ -372,7 +372,7 @@ td.second {
 }
 
 /* Mobile vs Desktop */
-@media (min-width: 768px) and (min-height: 1024px) {
+@media (min-width: 769px) {
   /*Desktop css*/
   aside nav ul li a {
     font-size: 1.2em;
