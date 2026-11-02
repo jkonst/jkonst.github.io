@@ -4,29 +4,45 @@ title: Experience
 permalink: /experience/
 ---
 
-<p class="exp-summary">Engineering leader with 14+ years delivering enterprise software across collaboration SaaS, financial markets, and EU public-sector programmes. Leads cross-functional initiatives end to end, aligning Engineering, Product and Design from discovery through rollout, mentoring engineers, and owning architecture and delivery risk. Executive MBA candidate at POLIMI Graduate School of Management.</p>
+<p class="exp-summary">Engineering leader with 14+ years delivering enterprise products across collaboration software, financial markets and EU public-sector programmes. Since June 2026 leading a team at Cisco Webex (Slido), owning 1:1s, performance reviews, hiring and delivery, while staying hands-on in the codebase. Aligns Engineering, Product and Design from discovery through rollout and owns architecture and delivery risk, including shipped LLM-backed product features. Executive MBA candidate at POLIMI Graduate School of Management.</p>
 
 <h2 class="cv-section-title">Professional Experience</h2>
 
 <div class="exp-entry">
   <div class="exp-meta">
     <span class="exp-company">Cisco Systems, Inc. &mdash; Webex (Slido) &mdash; Athens, Greece</span>
-    <span class="exp-dates">Mar 2022 &ndash; Present</span>
   </div>
-  <div class="exp-role">Staff Software Engineer <span style="color:#999;font-weight:400;font-size:0.9em;">(promoted from Senior Software Engineer)</span></div>
   <div class="exp-context">Collaboration &amp; Enterprise Software (SaaS) &mdash; webex.com | slido.com</div>
-  <div class="exp-body">
-    <p>Led the ground-up rebuild of the Slido host application UI, a core contributor to raising product Net Promoter Score from 60 to close to 80. Restructured the platform into a modular monorepo, sharing functionality across the host app and the Webex, Microsoft Teams, and Zoom integrations, and removing duplicated effort between teams.</p>
-    <ul>
-      <li>Reduced accessibility defects by more than 50%, strengthening enterprise compliance readiness.</li>
-      <li>Shipped LLM-backed features: AI-generated polls for new-user onboarding, and an AI categorisation poll type that groups participant votes into themes for hosts and audiences.</li>
-      <li>Led model selection: designed an evaluation harness comparing candidate models across identical vote sessions on latency and quality, pairing LLM-as-judge scoring with structured human review, and tuned prompts against the results.</li>
-      <li>Owns the model integration layer, with all traffic routed through internal GDPR-compliant proxies.</li>
-      <li>Introduced end-to-end agent orchestration into the team's workflow, from Jira ticket through adversarial PR review to automated quality gates.</li>
-      <li>Leads cross-functional delivery for Slido product areas and enterprise integrations, aligning Engineering, Product and Design from discovery through rollout.</li>
-      <li>Acts as Tech Lead shadow: deputises on technical direction, planning and cross-team coordination; mentors engineers; supports hiring through interviewing and onboarding.</li>
-      <li>Driving the roadmap to deepen the Webex experience within Slido, targeting growth in Webex adoption against competing meeting platforms.</li>
-    </ul>
+  <div class="exp-position">
+    <div class="exp-meta">
+      <span class="exp-role">Staff Software Engineer &mdash; Team Lead</span>
+      <span class="exp-dates">Jun 2026 &ndash; Present</span>
+    </div>
+    <div class="exp-body">
+      <ul>
+        <li>Leads a Slido team, owning regular 1:1s, performance reviews, career growth and hiring decisions.</li>
+        <li>Owns delivery planning and execution, aligning Engineering, Product and Design from discovery through rollout.</li>
+        <li>Led model selection for LLM features: designed an evaluation harness comparing candidate models across identical vote sessions on latency and quality, pairing LLM-as-judge scoring with structured human review, and tuned prompts against the results.</li>
+        <li>Drives the roadmap to deepen the Webex experience within Slido, targeting growth in Webex adoption against competing meeting platforms.</li>
+        <li>Stays hands-on, owning the model integration layer behind internal GDPR-compliant proxies.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="exp-position">
+    <div class="exp-meta">
+      <span class="exp-role">Staff Software Engineer<span style="color:#999;font-weight:400;font-size:0.9em;">, promoted from Senior Software Engineer</span></span>
+      <span class="exp-dates">Mar 2022 &ndash; Jun 2026</span>
+    </div>
+    <div class="exp-body">
+      <ul>
+        <li>Led the ground-up rebuild of the Slido host application UI, a core contributor to raising product Net Promoter Score from 60 to close to 80.</li>
+        <li>Restructured the platform into a modular monorepo, sharing functionality across the host app and the Webex, Microsoft Teams and Zoom integrations.</li>
+        <li>Reduced accessibility defects by more than 50%.</li>
+        <li>Shipped LLM-backed features: AI-generated polls for new-user onboarding, and an AI categorisation poll type that groups participant votes into themes for hosts and audiences.</li>
+        <li>Introduced end-to-end agent orchestration into the team's workflow, from Jira ticket through adversarial PR review to automated quality gates.</li>
+        <li>Operated as Tech Lead shadow, deputising on technical direction, mentoring and interviewing.</li>
+      </ul>
+    </div>
   </div>
   <div class="exp-tech">
     <span class="tech-tag">TypeScript</span>
