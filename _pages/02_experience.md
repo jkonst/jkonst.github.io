@@ -223,7 +223,7 @@ permalink: /experience/
   </div>
   <div class="lang-entry">
     <span class="lang-name">Italian</span>
-    <span class="lang-level">A1–A2</span>
+    <span class="lang-level">A1, currently studying (target B1)</span>
   </div>
 </div>
 
@@ -248,6 +248,6 @@ permalink: /experience/
   </div>
   <div class="skills-row">
     <span class="skills-label">Leadership</span>
-    <span class="skills-items">Mentoring and coaching, hiring and onboarding, roadmaps, OKRs/KPIs, agile execution, risk management, cross-functional and stakeholder communication</span>
+    <span class="skills-items">People management (1:1s, performance reviews, career growth), hiring, mentoring, roadmaps, OKRs/KPIs, agile execution, risk management, stakeholder communication</span>
   </div>
 </div>
