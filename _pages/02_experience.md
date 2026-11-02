@@ -60,14 +60,14 @@ permalink: /experience/
     <span class="exp-company">Sword Group S.A. &mdash; Athens, Greece</span>
     <span class="exp-dates">Sep 2021 &ndash; Feb 2022</span>
   </div>
-  <div class="exp-role">Team Lead (Sword) / Tech Lead (eu-LISA)</div>
+  <div class="exp-role">Team Lead (Sword) / Tech Lead (EU-LISA)</div>
   <div class="exp-context">IT Consulting for EU Institutions &amp; Public Sector</div>
   <div class="exp-body">
-    <p>Owned delivery on the EU Interoperability programme (greenfield) — the initiative connecting the EU's large-scale border and security systems (SIS, VIS, EES, ETIAS, Eurodac) against a fixed, non-negotiable deadline.</p>
     <ul>
-      <li>Led a team weighted heavily toward junior engineers, combining task allocation with hands-on mentoring to hold quality and pace under schedule pressure.</li>
-      <li>Acted as the connecting point between programme managers, business analysts, architects, and developers across several partner companies, resolving the external dependencies that constrained design decisions.</li>
-      <li>Decomposed scope into milestones, tracked cross-team dependencies, drove release readiness; set design and code review standards and definition of done.</li>
+      <li>Owned delivery on the EU Interoperability programme (greenfield) for eu-LISA, connecting the EU's large-scale border and security systems (SIS, VIS, EES, ETIAS, Eurodac), against a fixed deadline.</li>
+      <li>Led a team weighted towards junior engineers, combining task allocation with hands-on mentoring.</li>
+      <li>Acted as the connecting point between programme managers, analysts, architects and developers across several partner companies.</li>
+      <li>Tracked cross-team dependencies and set design and code review standards.</li>
     </ul>
   </div>
   <div class="exp-tech">
@@ -86,10 +86,13 @@ permalink: /experience/
     <span class="exp-company">Sword Group S.A. &mdash; Athens, Greece</span>
     <span class="exp-dates">Mar 2021 &ndash; Sep 2021</span>
   </div>
-  <div class="exp-role">Deputy Tech Lead (eu-LISA)</div>
+  <div class="exp-role">Deputy Tech Lead (EU-LISA)</div>
   <div class="exp-context">IT Consulting for EU Institutions &amp; Public Sector</div>
   <div class="exp-body">
-    <p>Supported delivery planning and engineering execution for the ETIAS web application (greenfield), a European border-security system. Raised code quality and consistency by embedding design reviews, code reviews, and shared engineering standards across the team.</p>
+    <ul>
+      <li>Supported delivery planning and engineering execution for the ETIAS web application (greenfield), a European border-security system.</li>
+      <li>Raised code quality through design reviews, code reviews and shared engineering standards.</li>
+    </ul>
   </div>
   <div class="exp-tech">
     <span class="tech-tag">React</span>
