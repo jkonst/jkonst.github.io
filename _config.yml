@@ -13,3 +13,6 @@ kramdown:
   input: GFM
 
 theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-sitemap
