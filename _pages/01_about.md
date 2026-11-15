@@ -1,7 +1,9 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /
+seo_title: "Yannis Konstas – Engineering Leader & Staff Software Engineer"
+description: "Yannis Konstas: Engineering Leader with 14+ years in enterprise software. Team Lead & Staff Software Engineer at Cisco Webex (Slido), EMBA candidate at POLIMI."
 ---
 
 <div class="home-intro">

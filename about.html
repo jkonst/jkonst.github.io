@@ -1,0 +1,19 @@
+---
+# The About page moved to the homepage; this keeps old /about/ links working.
+permalink: /about/
+layout: null
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Redirecting to {{ site.url }}/</title>
+	<link rel="canonical" href="{{ site.url }}/">
+	<meta name="robots" content="noindex">
+	<meta http-equiv="refresh" content="0; url={{ site.url }}/">
+</head>
+<body>
+	<a href="{{ site.url }}/">Click here if you are not redirected.</a>
+</body>
+</html>

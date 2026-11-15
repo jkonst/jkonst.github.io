@@ -3,6 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 published: true
+description: "Side projects by Yannis Konstas: JK Password Generator (desktop app), Github User Search (web app) and Exam Finder (Android app), with code on GitHub."
 ---
 
 <div id="info-wrapper">
