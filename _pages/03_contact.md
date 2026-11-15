@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+description: "Contact Yannis Konstas, Engineering Leader and Staff Software Engineer based in Athens, Greece."
 ---
 <form class="contact-jk" action="https://formspree.io/{{site.email}}" method="POST">
     <input type="text" name="email" placeholder="Email Address">

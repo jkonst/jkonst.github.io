@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "ProfilePage",
+		"url": {{ site.url | append: "/" | jsonify }},
+		"name": {{ seo_title | jsonify }},
+		"mainEntity": {
+			"@type": "Person",
+			"@id": {{ site.url | append: "/#person" | jsonify }},
+			"name": "Yannis Konstas",
+			"alternateName": "Ioannis Konstas",
+			"givenName": "Yannis",
+			"familyName": "Konstas",
+			"honorificSuffix": "M.Sc.",
+			"jobTitle": "Team Lead and Staff Software Engineer",
+			"description": {{ site.description | jsonify }},
+			"url": {{ site.url | append: "/" | jsonify }},
+			"image": {{ og_image_url | jsonify }},
+			"worksFor": {
+				"@type": "Organization",
+				"name": "Cisco",
+				"department": { "@type": "Organization", "name": "Webex (Slido)" }
+			},
+			"alumniOf": [
+				{ "@type": "CollegeOrUniversity", "name": "University of Patras" },
+				{ "@type": "CollegeOrUniversity", "name": "Athens University of Economics and Business" }
+			],
+			"address": { "@type": "PostalAddress", "addressLocality": "Athens", "addressCountry": "GR" },
+			"knowsLanguage": ["el", "en", "fr", "it"],
+			"sameAs": [
+				"https://www.linkedin.com/in/{{ site.linkedin_username }}",
+				"https://github.com/{{ site.github_username }}"
+			]
+		}
+	}
+	</script>

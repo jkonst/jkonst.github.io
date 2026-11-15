@@ -2,6 +2,8 @@
 layout: page
 title: Experience
 permalink: /experience/
+seo_title: "Experience – Yannis Konstas, Engineering Leader"
+description: "Career of Yannis Konstas: team lead at Cisco Webex (Slido), 14+ years delivering software for collaboration SaaS, financial markets and the EU public sector."
 ---
 
 <p class="exp-summary">Engineering leader with 14+ years delivering enterprise products across collaboration software, financial markets and EU public-sector programmes. Since June 2026 leading a team at Cisco Webex (Slido), owning 1:1s, performance reviews, hiring and delivery, while staying hands-on in the codebase. Aligns Engineering, Product and Design from discovery through rollout and owns architecture and delivery risk, including shipped LLM-backed product features. Executive MBA candidate at POLIMI Graduate School of Management.</p>
